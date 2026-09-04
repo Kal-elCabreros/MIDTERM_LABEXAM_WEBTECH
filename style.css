@@ -1,0 +1,198 @@
+/* my own custom styles para sa portfolio */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* navbar color */
+.navbar-custom {
+  background-color: #0a2472;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-bottom: 4px solid #b22234;
+}
+
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-custom .nav-link {
+  color: #ffffff;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #b22234;
+}
+
+.navbar-custom .nav-link.active {
+  color: #b22234;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* homepage section */
+.home-section {
+  background-color: #0a2472;
+  background-image: linear-gradient(160deg, #0a2472, #b22234);
+  color: #ffffff;
+  min-height: 90vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.profile-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #b22234;
+  outline: 6px solid #ffffff;
+}
+
+.home-section h1 {
+  font-weight: bold;
+  font-size: 42px;
+  margin-top: 25px;
+}
+
+.role-text {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+/* button styling */
+.btn-cap {
+  background-color: #b22234;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.btn-cap:hover {
+  background-color: #ffffff;
+  color: #b22234;
+}
+
+/* social media icons */
+.social-icons a {
+  color: #ffffff;
+  font-size: 22px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #b22234;
+}
+
+/* section title style, ginamit sa lahat ng section */
+.section-title {
+  font-weight: bold;
+  color: #0a2472;
+  border-bottom: 3px solid #b22234;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+/* ===== ABOUT ME SECTION ===== */
+.about-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #ffffff;
+}
+
+.about-card {
+  border: 2px solid #0a2472;
+}
+
+.skill-badge {
+  background-color: #0a2472;
+  color: #ffffff;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.bar-cap {
+  background-color: #b22234;
+}
+
+.interest-carousel {
+  background-color: #0a2472;
+  border-radius: 8px;
+  height: 160px;
+}
+
+.interest-slide {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.interest-slide i {
+  font-size: 40px;
+  color: #b22234;
+}
+
+/* ===== GALLERY SECTION ===== */
+.gallery-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f2f2f2;
+}
+
+.gallery-card {
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.gallery-card img {
+  height: 320px;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.3s;
+}
+
+.gallery-card:hover img {
+  opacity: 0.8;
+}
+
+/* ===== MISSION / VISION SECTION ===== */
+.mission-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #ffffff;
+}
+
+.mv-card {
+  border-top: 5px solid #b22234;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #0a2472;
+  color: #ffffff;
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #f2f2f2;
+}
+
+.alert-cap {
+  background-color: #0a2472;
+  color: #ffffff;
+  border: none;
+}
+
+/* ===== FOOTER ===== */
+.footer-section {
+  background-color: #0a2472;
+  color: #ffffff;
+  padding: 20px 0;
+}
